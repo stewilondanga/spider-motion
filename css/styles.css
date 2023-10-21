@@ -346,11 +346,11 @@ body {
   --seg-depth: 2;
 }
 
-/*.segment > .segment > .segment > .segment {
+.segment>.segment>.segment>.segment {
   --seg-depth: 3;
 }
 
-@keyframes hue {
+/*@keyframes hue {
   to {
     background: hsl(
       var(--next-hue),

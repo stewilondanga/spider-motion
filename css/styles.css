@@ -320,14 +320,14 @@ body {
   border-radius: 40% 60% / 50% 50%;
 }
 
-/*.segment::after {
+.segment::after {
   top: 0;
   left: 0;
   background:
     linear-gradient(to bottom, #fff3, transparent);
 }
 
-.segment::before {
+/*.segment::before {
   bottom: 0;
   right: 0;
   background:

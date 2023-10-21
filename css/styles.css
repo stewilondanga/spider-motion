@@ -252,7 +252,7 @@ body {
   }
 }
 
-/*.blade::after {
+.blade::after {
   content: "";
   position: absolute;
   top: 0;
@@ -269,7 +269,7 @@ body {
     wire calc(var(--speed) * 4) infinite;
 }
 
-@keyframes appear {
+/*@keyframes appear {
   15% {
     opacity: 1;
   }

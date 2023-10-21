@@ -229,16 +229,14 @@ body {
   }
 }
 
-/*@keyframes jump {
+@keyframes jump {
   30% {
     transform:
-      translateX(-50%)
-      rotate(calc(72deg * (var(--index) + 1)))
-      translateY(98%);
+      translateX(-50%) rotate(calc(72deg * (var(--index) + 1))) translateY(98%);
   }
 }
 
-@keyframes shadow {
+/*@keyframes shadow {
   33% {
     box-shadow:
       1.5vmin 0 0 -1.2vmin

@@ -311,7 +311,7 @@ body {
     sting var(--speed) infinite;
 }
 
-/*.segment::after,
+.segment::after,
 .segment::before {
   content: "";
   position: absolute;
@@ -320,7 +320,7 @@ body {
   border-radius: 40% 60% / 50% 50%;
 }
 
-.segment::after {
+/*.segment::after {
   top: 0;
   left: 0;
   background:

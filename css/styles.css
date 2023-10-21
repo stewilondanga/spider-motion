@@ -236,23 +236,23 @@ body {
   }
 }
 
-/*@keyframes shadow {
+@keyframes shadow {
   33% {
     box-shadow:
-      1.5vmin 0 0 -1.2vmin
-      hsla(var(--hue), 50%, 50%, 0.25);
+      1.5vmin 0 0 -1.2vmin hsla(var(--hue), 50%, 50%, 0.25);
   }
+
   82% {
     box-shadow:
-      1.5vmin 0 0 -1.2vmin
-      hsla(var(--hue), 50%, 50%, 0.75);
+      1.5vmin 0 0 -1.2vmin hsla(var(--hue), 50%, 50%, 0.75);
   }
+
   from, 32%, 34%, 81%, 83%, to {
     box-shadow: none;
   }
 }
 
-.blade::after {
+/*.blade::after {
   content: "";
   position: absolute;
   top: 0;

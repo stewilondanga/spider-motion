@@ -293,28 +293,25 @@ body {
   }
 }
 
-/*.segment {
+.segment {
   position: absolute;
   width: calc(100% - var(--seg-depth) * 25%);
   height: 62%;
   left: 50%;
   bottom: 100%;
   transform:
-    translateX(-50%)
-    rotate(calc(16deg * var(--seg-depth)));
+    translateX(-50%) rotate(calc(16deg * var(--seg-depth)));
   transform-origin: bottom center;
-  background: hsl(
-    var(--hue),
-    calc(50% + 6% * var(--seg-depth)),
-    calc(50% - 6% * var(--seg-depth))
-  );
+  background: hsl(var(--hue),
+      calc(50% + 6% * var(--seg-depth)),
+      calc(50% - 6% * var(--seg-depth)));
   border-radius: 20% 80% / 40% 30%;
   animation:
     hue var(--speed) linear infinite,
     sting var(--speed) infinite;
 }
 
-.segment::after,
+/*.segment::after,
 .segment::before {
   content: "";
   position: absolute;

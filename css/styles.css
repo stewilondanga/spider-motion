@@ -217,12 +217,12 @@ body {
   --index: 3;
 }
 
-/*.blade:nth-child(5) {
+.blade:nth-child(5) {
   --index: 4;
   --next-hue-index: 0;
 }
 
-@keyframes spin {
+/*@keyframes spin {
   to {
     transform:
       translateX(-50%)

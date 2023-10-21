@@ -279,19 +279,21 @@ body {
   }
 }
 
-/*@keyframes wire {
+@keyframes wire {
   25% {
     transform: scale(1.5) rotate(.75turn);
   }
+
   50%, 100% {
     transform: scale(1) rotate(.15turn);
   }
+
   75% {
     transform: scale(2) rotate(1turn);
   }
 }
 
-.segment {
+/*.segment {
   position: absolute;
   width: calc(100% - var(--seg-depth) * 25%);
   height: 62%;

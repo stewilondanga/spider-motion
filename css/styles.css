@@ -201,11 +201,11 @@ body {
     shadow calc(var(--speed) * 8) calc(var(--index) * var(--speed) / 20) linear infinite;
 }
 
-/*.blade:nth-child(1) {
+.blade:nth-child(1) {
   --index: 0;
 }
 
-.blade:nth-child(2) {
+/*.blade:nth-child(2) {
   --index: 1;
 }
 

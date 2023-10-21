@@ -209,11 +209,11 @@ body {
   --index: 1;
 }
 
-/*.blade:nth-child(3) {
+.blade:nth-child(3) {
   --index: 2;
 }
 
-.blade:nth-child(4) {
+/*.blade:nth-child(4) {
   --index: 3;
 }
 

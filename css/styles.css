@@ -338,11 +338,11 @@ body {
   --seg-depth: 0;
 }
 
-/*.segment > .segment {
+.segment>.segment {
   --seg-depth: 1;
 }
 
-.segment > .segment > .segment {
+/*.segment > .segment > .segment {
   --seg-depth: 2;
 }
 

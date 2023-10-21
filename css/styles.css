@@ -182,7 +182,7 @@ body {
   position: relative;
 }
 
-/*.blade {
+.blade {
   --next-hue-index: calc(var(--index) + 1);
   --hue: calc(240 + 20 * var(--index));
   --next-hue: calc(240 + 20 * var(--next-hue-index));
@@ -193,21 +193,15 @@ body {
   height: 50%;
   border-radius: 0% 100%;
   transform:
-    translateX(-50%)
-    rotate(calc(72deg * var(--index)))
-    translateY(96%);
+    translateX(-50%) rotate(calc(72deg * var(--index))) translateY(96%);
   transform-origin: bottom center;
   animation:
     spin var(--speed) linear infinite,
     jump var(--speed) infinite,
-    shadow
-      calc(var(--speed) * 8)
-      calc(var(--index) * var(--speed) / 20)
-      linear
-      infinite;
+    shadow calc(var(--speed) * 8) calc(var(--index) * var(--speed) / 20) linear infinite;
 }
 
-.blade:nth-child(1) {
+/*.blade:nth-child(1) {
   --index: 0;
 }
 

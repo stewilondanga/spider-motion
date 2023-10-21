@@ -334,11 +334,11 @@ body {
     linear-gradient(to top, #0003, transparent);
 }
 
-/*.segment {
+.segment {
   --seg-depth: 0;
 }
 
-.segment > .segment {
+/*.segment > .segment {
   --seg-depth: 1;
 }
 

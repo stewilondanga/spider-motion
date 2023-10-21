@@ -327,14 +327,14 @@ body {
     linear-gradient(to bottom, #fff3, transparent);
 }
 
-/*.segment::before {
+.segment::before {
   bottom: 0;
   right: 0;
   background:
     linear-gradient(to top, #0003, transparent);
 }
 
-.segment {
+/*.segment {
   --seg-depth: 0;
 }
 

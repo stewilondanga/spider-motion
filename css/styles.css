@@ -269,16 +269,17 @@ body {
     wire calc(var(--speed) * 4) infinite;
 }
 
-/*@keyframes appear {
+@keyframes appear {
   15% {
     opacity: 1;
   }
+
   30% {
     opacity: 0;
   }
 }
 
-@keyframes wire {
+/*@keyframes wire {
   25% {
     transform: scale(1.5) rotate(.75turn);
   }

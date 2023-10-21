@@ -358,11 +358,9 @@ body {
   }
 }
 
-/*@keyframes sting {
+@keyframes sting {
   40% {
     transform:
-      translateX(-50%)
-      rotate(calc(48deg * var(--seg-depth)))
-      scale(1.2, 0.9);
+      translateX(-50%) rotate(calc(48deg * var(--seg-depth))) scale(1.2, 0.9);
   }
 }

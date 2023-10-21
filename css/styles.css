@@ -222,16 +222,14 @@ body {
   --next-hue-index: 0;
 }
 
-/*@keyframes spin {
+@keyframes spin {
   to {
     transform:
-      translateX(-50%)
-      rotate(calc(72deg * (var(--index) + 1)))
-      translateY(96%);
+      translateX(-50%) rotate(calc(72deg * (var(--index) + 1))) translateY(96%);
   }
 }
 
-@keyframes jump {
+/*@keyframes jump {
   30% {
     transform:
       translateX(-50%)
